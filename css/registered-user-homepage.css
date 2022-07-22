@@ -151,7 +151,7 @@
 }
 .section10-homepage{
     background: #FDFAF7;
-    min-height: 60vh;
+    min-height: 65vh;
 
 }
 .customer-feedback{
@@ -160,7 +160,7 @@
 }
 .latest-news-section{
     background:  linear-gradient(rgba(0, 0, 0, 0.2),rgba(29, 29, 29, 0.51)), url('../img/jason-dent-eB1ziPSixlQ-unsplash\ 1.png');
-    min-height: 60vh;
+    min-height: 65vh;
 }
 .latest-news .the-news{
 
