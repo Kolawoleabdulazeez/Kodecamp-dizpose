@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: serif;
+}
+
+.d-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.e-btn{
+    padding: 4px 90px;
+    border: none;
+    border-radius: 5px;
+    background-color: #32cd32;
+    color: #fff;
+}
+
+@media(max-width: 426px){
+    .pad{
+        padding: 0 5.1rem;
+    }
+    .e-image{
+        width: 100% !important;
+        padding: 0 20px;
+    }
+
+    .e-btn{
+        padding: 4px 100px;
+        border: none;
+        border-radius: 5px;
+        background-color: #32cd32;
+        color: #fff;
+        overflow-x: hidden;
+    }
+
+    .top{
+        margin: 20px;
+    }
+}

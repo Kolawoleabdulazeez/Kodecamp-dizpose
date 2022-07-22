@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'inter' sans-serif;
+}
+
+.small-text{
+    font-size: 12px !important;
+}
+
+.first-member{
+    margin-right: 9rem;
+}
+
+@media(max-width: 426px){
+    .about-details{
+        width: 100%;
+    }
+
+    .spread{
+        padding: 0 !important;
+        width: 100%;
+    }
+}
+
+@media(max-width: 769px){
+    .about-details{
+        width: 100%;
+    }
+
+    .spread{
+        padding: 0 !important;
+        width: 100%;
+    }
+}
